@@ -1,0 +1,20 @@
+[app]
+title = My Soundboard
+package.name = mysoundboard
+package.domain = org.test
+source.dir = 
+source.include_exts = py,png,jpg,kv,atlas,mp3,wav
+version = 0.1
+requirements = python3,kivy,plyer
+orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 1.9.1
+fullscreen = 0
+android.permissions = INTERNET
+android.archs = arm64-v8a, armeabi-v7a
+p4a.branch = release-2022.12.20
+ios.kivy_ios_url = https://github.com/kivy/kivy-ios
+ios.kivy_ios_branch = master
+ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
+ios.ios_deploy_branch = 1.10.0
+ios.codesign.allowed = false
